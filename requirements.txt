@@ -1,0 +1,51 @@
+
+# # # install miniconda, make sure to add to your PATH (ensure python 3.9 is avaiable on conda base)
+# conda install -c conda-forge ta-lib
+# conda install -c numba numba
+# conda install -c conda-forge riskfolio-lib
+# conda install -n base ipykernel --update-deps --force-reinstall
+# conda install -y -c anaconda seaborn
+# conda install -y joblib
+# conda install -y -c conda-forge gdown
+# conda install -y -c conda-forge ipywidgets=7.7.2
+
+# pip install universal-portfolios ## will fail for some compiler issue, can skip I guess
+# pip install -r hassan-requirements.txt
+
+# clone latest vectorbtpro, then:
+# pip install -e vectorbtpro
+
+# other python requirements
+
+pybind11
+yfinance>=0.1.63
+python-binance>=1.0.16
+alpaca-py
+ccxt>=1.89.14
+tables
+polygon-api-client>=1.0.0
+beautifulsoup4
+nasdaq-data-link
+ta
+pandas_ta
+technical
+TA-Lib
+Bottleneck
+numexpr
+hyperopt
+ray>=1.4.1
+dask
+matplotlib>=3.2.0
+plotly>=5.0.0
+ipywidgets>=7.0.0
+kaleido
+plotly-resampler
+quantstats>=0.0.37
+PyPortfolioOpt>=1.5.1
+python-telegram-bot>=13.4,<20.0
+dill
+pytest
+pytest-cov
+codecov
+lttbc
+nbformat

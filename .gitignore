@@ -131,3 +131,9 @@ dmypy.json
 .DS_Store
 
 notebook/data/
+
+notebook/joblib_cache_dir/
+
+*.csv
+
+*.png
